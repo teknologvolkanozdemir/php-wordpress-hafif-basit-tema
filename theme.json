@@ -1,0 +1,56 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 3,
+	"settings": {
+		"layout": {
+			"contentSize": "720px",
+			"wideSize": "1100px"
+		},
+		"color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#222222",
+					"name": "Metin"
+				},
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Arka plan"
+				},
+				{
+					"slug": "accent",
+					"color": "#2457a7",
+					"name": "Vurgu"
+				}
+			]
+		},
+		"typography": {
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "system-ui, sans-serif",
+					"name": "Sistem",
+					"slug": "system"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"text": "var(--wp--preset--color--foreground)",
+			"background": "var(--wp--preset--color--background)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system)",
+			"lineHeight": "1.6"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--accent)"
+				}
+			}
+		}
+	}
+}
